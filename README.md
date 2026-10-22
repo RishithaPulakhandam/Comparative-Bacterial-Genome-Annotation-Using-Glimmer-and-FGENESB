@@ -81,7 +81,6 @@ bacterial-genome-annotation/
 └── results/
     ├── halan.predict
     ├── halan.glimmer
-    └── glimmer_fgenesb_comparison.tsv
 ```
 
 ## Running the Pipeline
@@ -93,6 +92,13 @@ bacterial-genome-annotation/
 5. Review the generated prediction files.
 
 FGENESB is a separate tool and is not executed by the Glimmer script. Its output must be obtained independently to reproduce the comparison.
+<img width="1126" height="1482" alt="image" src="https://github.com/user-attachments/assets/26158c40-5642-4bd8-95c6-5391bcd8b66a" />
+
+Gene 1: mRNA from positions 3 to 350 on the positive strand, encoding a 115 aa protein.
+Gene 2: mRNA from positions 343 to 1626 on the positive strand, encoding a 427 aa protein.
+Gene 3: mRNA from positions 1629 to 4733 on the positive strand, encoding a 1034 aa protein.
+Gene 4: mRNA from positions 5786 to 4971 on the negative strand, encoding a 271 aa protein.
+
 
 ## Limitations
 
